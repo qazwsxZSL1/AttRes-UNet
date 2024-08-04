@@ -3,7 +3,7 @@
 #### 
 
 * Structure of the proposed AttRes-UNet network:
-![](assets/figure 1.tif)
+![](assets/Figure1.png)
 
 
 ## Experimental results
