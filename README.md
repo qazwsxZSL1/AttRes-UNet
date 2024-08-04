@@ -17,7 +17,7 @@
 
 ### Comparison of experimental prediction results of advanced network models:
 
-| Method     | IoU    | Precison| Recall  | Accuracy | mPA    | mIoU  | wmIoU
+| Method     | IoU    | Precison| Recall  | Accuracy | mPA    | mIoU      | wmIoU
 |------------|--------|---------|---------|----------|--------|-----------|
 | PSPNet     | 93.40  | 95.75   | 98.51      | 88.49  | 92.08  | 95.77     | /
 | SegNET     | 82.91  | 90.91   | 95.64      | 70.69  | 84.62  | 81.12     | /
@@ -29,13 +29,16 @@
 | Ours1      | 94.85  | 96.76   | 98.85      | 91.21  | 94.20  | 96.65     | 88.31
 | GRFB-UNet  | 94.85  | 96.76   | 98.85      | 91.21  | 94.20  | 96.65     | 89.43
 | Ours2      | 94.85  | 96.76   | 98.85      | 91.21  | 94.20  | 96.65     | 90.94
-		
-		
+
+表头 | 表头 | 表头 | 
+---- | ----- | ------
+单元格内容 | 单元格内容 | 单元格内容
+单元格内容 | 单元格内容 | 单元格内容
 Notation: The results in the table are all percentage data (%).
 
 ### Comparison of experimental prediction results of advanced network models:
 
-| Method     | IoU    | Precison| Recall     |Accuracy| mPA    | mIoU      | wmiou
+| Method     | IoU    | Precison| Recall     |Accuracy| mPA    | mIoU      |
 |------------|--------|---------|------------|--------|--------|-----------|
 | PSPNet     | 93.40  | 95.75   | 98.51      | 88.49  | 92.08  | 95.77     |
 | SegNET     | 82.91  | 90.91   | 95.64      | 70.69  | 84.62  | 81.12     |
