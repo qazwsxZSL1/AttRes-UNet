@@ -3,8 +3,12 @@
 #### 
 
 * Structure of the proposed AttRes-UNet network:
+
 ![](assets/Figure1.png)
 
+* Structure of the proposed ATT Block:
+
+![](assets/Figure2.png)
 
 ## Experimental results
 ****
