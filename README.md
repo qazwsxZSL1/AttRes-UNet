@@ -35,7 +35,7 @@ Notation: The results in the table are all percentage data (%).
 
 ### Comparison of experimental prediction results of advanced network models:
 
-| Method     | MIoU   | mPA     | Accuracy   | IoU    | Recall | Preision  |
+| Method     | IoU    | Precison| Recall     |Accuracy| mPA    | mIoU      | wmiou
 |------------|--------|---------|------------|--------|--------|-----------|
 | PSPNet     | 93.40  | 95.75   | 98.51      | 88.49  | 92.08  | 95.77     |
 | SegNET     | 82.91  | 90.91   | 95.64      | 70.69  | 84.62  | 81.12     |
