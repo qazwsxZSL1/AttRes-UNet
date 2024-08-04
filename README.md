@@ -5,9 +5,6 @@
 * Structure of the proposed AttRes-UNet network:
 ![](assets/img_1.png)
 
-* Structure of the proposed ATT Block:
-![](assets/img_2.png)
-
 ## Abstract
 ******
 
