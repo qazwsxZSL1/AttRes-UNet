@@ -30,7 +30,6 @@
 Notation: The results in the table are all percentage data (%).
 ## Installation
 ****
-* Clone this repo, and we'll call the directory that you cloned as ${GRFBNet_ROOT}
 
 * Install dependencies. CUDA, Python and PyTorch:
 
@@ -38,7 +37,7 @@ Notation: The results in the table are all percentage data (%).
 
 &ensp;2. Install anaconda, and create conda environment;
 
-&ensp;3. [Install PyTorch 1.5.1 or later](https://pytorch.org/get-started/locally/);
+&ensp;3. [Install PyTorch 1.13.0 or later](https://pytorch.org/get-started/locally/);
 
 &ensp;4. Install other dependencies.
 
@@ -53,7 +52,7 @@ or
 ```bash
 conda create -n py python=3.7
 conda activate py
-conda install pytorch==1.13.1 torchvision==0.14.1 cudatoolkit=11.7 -c pytorch
+conda install pytorch==1.13.0 torchvision==0.14.1 cudatoolkit=11.7 -c pytorch
 conda install --yes --file requirements.txt
 ```
 
@@ -130,21 +129,6 @@ optional arguments:
 '--img_path', default='./data/TP-Dataset/JPEGImages', help='The path of testing sample images')
 '--txt_path', default='./data/TP-Dataset/Index/predict.txt', help='The path of testing sample list')
 '--save_result', default='./predict', help='The path of saved predicted results in images')
-```
-
-## Validation
-***
-* With the prepared ground truth of the TP-Dataset and the saved prediction, the evalation indicators are calculated for these testing images in the list of predict.txt. The indicator results are saved in the log file.
-```console
-python evaluating_indicator.py
-usage: evaluating_indicator.py [--gt_dir GD] [--txt_dir TD]
-                               [--pred_dir PD][--log_path LP]
-
-optional arguments:
-'--gt_dir', default='./data/TP-Dataset/Index/predict.txt', help='The root of TP-Dataset ground truth list file'
-'--txt_dir', default='./data/TP-Dataset/Index/predict.txt', help='The root of predicted file'
-'--pred_dir', default='./predict', help='The root of predicted results of testing samples'
-'--log_path', default='./log', help='The log root'
 ```
 
 ## Citation
