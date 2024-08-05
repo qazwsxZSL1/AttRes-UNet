@@ -147,6 +147,7 @@ Our code is constructed based on the basic structure of [UNet](https://arxiv.org
   year={2015},
   organization={Springer}
 }
+
 @article{zhang2024grfb,
 title = {GRFB-UNet: A new multi-scale attention network with group receptive field block for tactile paving segmentation},
 journal = {Expert Systems with Applications},
