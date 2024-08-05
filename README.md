@@ -137,7 +137,7 @@ optional arguments:
 
 ```
 ## Acknowledgement
-Our code is constructed based on the basic structure of [UNet](https://arxiv.org/abs/1505.04597). Thanks for their wonderful works.
+Our code is constructed based on the basic structure of [UNet](https://arxiv.org/abs/1505.04597) and [GRFB-UNet](https://doi.org/10.1016/j.eswa.2023.122109). Thanks for their wonderful works.
 ```
 @inproceedings{ronneberger2015u,
   title={U-net: Convolutional networks for biomedical image segmentation},
@@ -146,5 +146,15 @@ Our code is constructed based on the basic structure of [UNet](https://arxiv.org
   pages={234--241},
   year={2015},
   organization={Springer}
+}
+@article{zhang2024grfb,
+title = {GRFB-UNet: A new multi-scale attention network with group receptive field block for tactile paving segmentation},
+journal = {Expert Systems with Applications},
+volume = {238},
+pages = {122109},
+year = {2024},
+issn = {0957-4174},
+doi = {https://doi.org/10.1016/j.eswa.2023.122109},
+author = {Xingli Zhang and Lei Liang and Shenglu Zhao and Zhihui Wang},
 }
 ```
